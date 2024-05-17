@@ -26,6 +26,23 @@ Laravel Reverb is a new Laravel family member, which was released just a week ag
 
 Wondering what makes Laravel Reverb special? This article will break down its cool features and show you a real-life example of how to use it in an actual Laravel project.
 
+## Run Project
+To run Laravel project, we need to execute the following command:
+
+```
+    Serve Application
+    php artisan serve
+   
+    For starting front:
+    npm run dev
+
+    Start queue:
+    php artisan queue:listen
+    
+    Run reverb:
+    php artisan reverb:start --host=127.0.0.1 --port=8080
+```
+
 ## Credits
 
 https://redberry.international/laravel-reverb-real-time-communication/
